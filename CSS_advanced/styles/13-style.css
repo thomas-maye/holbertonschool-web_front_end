@@ -36,12 +36,12 @@ body {
     line-height: var(--line-height-base);
 }
 
-a {
+a:link{
     color: #161616;
     text-decoration: none;
 }
 
-a:link, a:visited {
+a:visited {
     font-style: italic;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 }
 
 a:active {
-    color: var(--color-light-grey);
+    background-color: var(--color-light-grey);
 }
 
 .visually-hidden {

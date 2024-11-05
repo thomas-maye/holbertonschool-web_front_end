@@ -36,12 +36,12 @@ body {
     line-height: var(--line-height-base);
 }
 
-a:link {
+a {
     color: #161616;
     text-decoration: none;
 }
 
-a:visited {
+a:link, a:visited {
     font-style: italic;
 }
 
